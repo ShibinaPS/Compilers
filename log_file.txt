@@ -1,0 +1,68 @@
+
+======================================== Lexical Analysis ========================================
+Token 'Int64_t'
+[Line: 1, position: 1, token class: TYPE_ID, error code: 0]
+Token 'position'
+[Line: 1, position: 2, token class: VARIABLE, error code: 0]
+Token '='
+[Line: 1, position: 3, token class: ASSIGN, error code: 0]
+Token 'if'
+[Line: 1, position: 4, token class: KEYWORD, error code: 0]
+Token 'true'
+[Line: 1, position: 5, token class: KEYWORD, error code: 0]
+Token 'then'
+[Line: 1, position: 6, token class: KEYWORD, error code: 0]
+Token 'initial'
+[Line: 1, position: 7, token class: VARIABLE, error code: 0]
+Token '+'
+[Line: 1, position: 8, token class: ADD, error code: 0]
+Token 'rate'
+[Line: 1, position: 9, token class: VARIABLE, error code: 0]
+Token '*'
+[Line: 1, position: 10, token class: MUL, error code: 0]
+Token '60'
+[Line: 1, position: 11, token class: NUMBER, error code: 0]
+Token 'else'
+[Line: 1, position: 12, token class: KEYWORD, error code: 0]
+Token '0'
+[Line: 1, position: 13, token class: NUMBER, error code: 0]
+Token 'if'
+[Line: 1, position: 1, token class: KEYWORD, error code: 0]
+Token '('
+[Line: 1, position: 2, token class: OP, error code: 0]
+Token 't'
+[Line: 1, position: 3, token class: VARIABLE, error code: 0]
+Token '>'
+[Line: 1, position: 4, token class: UNKNOWN, error code 1]
+Token '='
+[Line: 1, position: 5, token class: ASSIGN, error code: 0]
+Token '-9'
+[Line: 1, position: 6, token class: NUMBER, error code: 0]
+Token '&&'
+[Line: 1, position: 7, token class: AND, error code: 0]
+Token 't'
+[Line: 1, position: 8, token class: VARIABLE, error code: 0]
+Token '<'
+[Line: 1, position: 9, token class: UNKNOWN, error code 1]
+Token '='
+[Line: 1, position: 10, token class: ASSIGN, error code: 0]
+Token '5'
+[Line: 1, position: 11, token class: NUMBER, error code: 0]
+Token ')'
+[Line: 1, position: 12, token class: CP, error code: 0]
+Token 'position'
+[Line: 1, position: 13, token class: VARIABLE, error code: 0]
+Token '='
+[Line: 1, position: 14, token class: ASSIGN, error code: 0]
+Token '25'
+[Line: 1, position: 15, token class: NUMBER, error code: 0]
+Token '"5 - 3 = 2"'
+[Line: 1, position: 1, token class: STRING, error code: 0]
+Token '"Hello, everybody!"'
+[Line: 1, position: 1, token class: STRING, error code: 0]
+Token ''
+[Line: 1, position: 1, token class: ENDOFFILE, error code: 0]
+
+Quantity: 30
+
+==================================================================================================

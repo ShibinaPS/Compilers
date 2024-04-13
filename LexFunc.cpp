@@ -11,7 +11,7 @@ size_t cur_line_num = 1;
 
 void PrintLogFile(const char* const token_l, size_t const tok_class_l, size_t const line_num_l, size_t const cur_tok_num_l, size_t const error_code_l)
 {
-      fprintf(log_file, "Token %s\n", token_l);
+      fprintf(log_file, "Token '%s'\n", token_l);
       fprintf(log_file, "[Line: %lu, position: %lu, ", line_num_l, cur_tok_num_l);
 
       switch(tok_class_l)
@@ -94,10 +94,10 @@ void PrintLogFile(const char* const token_l, size_t const tok_class_l, size_t co
       switch(error_code_l)
       {
             case(0):
-                  fprintf(log_file, "error code: %d", NO_ERROR);
+                  fprintf(log_file, "error code: %d]\n", NO_ERROR);
                   break;
             case(1):
-                  fprintf(log_file, "error code %d", ERROR_UNKNOWN_TOKEN);
+                  fprintf(log_file, "error code %d]\n", ERROR_UNKNOWN_TOKEN);
                   break;
             default:
                   fprintf(log_file, " ");

@@ -1,6 +1,5 @@
 %option noyywrap
 %x COMMENT
-%option C++
 
 ELSE 	([Ee][Ll][Ss][Ee])
 FALSE	([f][Aa][Ll][Ss][Ee])

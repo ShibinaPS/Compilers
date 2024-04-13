@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 	fprintf(log_file, "\n======================================== Lexical Analysis ========================================\n");
 
 	yyrestart(yyin);
-	yylex(yyin);
+	yylex();
 
 	fprintf(log_file, "\nQuantity: %lu\n", tok_count);
 	fprintf(log_file, "\n==================================================================================================\n");
