@@ -4,7 +4,8 @@
 //========================================================================================================
 
 #include <stdio.h>
-#include "Header.hpp"
+#include <string.h>
+#include <cstddef>
 
 //========================================================================================================
 
@@ -46,9 +47,10 @@ enum tok_class
 
 enum LexerErrors
 {
-      ERROR_INPUT_FILE = 1,
-      ERROR_LOG_FILE_OPEN = 2,
-      ERROR_FILE_OPEN = 3,
+      NO_ERROR                = 0,
+      ERROR_UNKNOWN_TOKEN     = 1,     
+      ERROR_LOG_FILE_OPEN     = 2,
+      ERROR_SOURCE_FILE_OPEN  = 3,
 };
 
 //========================================================================================================
@@ -63,7 +65,7 @@ enum LexerErrors
  * @param error_code_l Error code. If the token is correct it will equal to 0, else 1.
  */
 
-void PrintLogFile(const char* token_l, const char tok_class_l, size_t const line_num_l, size_t const cur_tok_num_l, size_t const error_code_l);
+void PrintLogFile(const char* const token_l, size_t const tok_class_l, size_t const line_num_l, size_t const cur_tok_num_l, size_t const error_code_l);
 
 //========================================================================================================
 

@@ -1,0 +1,6 @@
+Int64_t position = if true then initial + rate * 60 else 0
+if (t >= -9 && t <= 5) position = 25;
+"5 - 3 = 2"
+"Hello, everybody!"
+--It`s a comment
+/*It`s also a comment*/
